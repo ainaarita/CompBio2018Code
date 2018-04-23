@@ -4,13 +4,13 @@
 int main(void){
   int t;
   double r;
-  r=1.1;
+  r=3.0;
   double x, xx, k;
   x=1.0;
   k=300.0;
 
    FILE *fp;
-   fp=fopen("outputr=1.1.dat", "w");
+   fp=fopen("outputr=3.0.dat", "w");
    fprintf(fp, "%d, %f\n", 0, x);
 
    for(t=1; t<300; t++){
