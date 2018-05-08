@@ -10,10 +10,10 @@ int main(void){
   x=x0;
   xa=x0;
   r=1.2;
-  dt=0.5;
+  dt=3.0;
 
   FILE *fp;
-  fp=fopen("3-7dt=0.5.dat","w");
+  fp=fopen("3-7dt=3.0.dat","w");
   fprintf(fp,"%f,%f,%f\n",0.0,xa,x);
   for(i=1;i<1000;i++){
     xa=k/(1+(-1+k/x0)*exp(-r*dt*i));
