@@ -8,7 +8,7 @@ int main(void){
   double a,b,c,d;
 
   FILE *fp;
-  fp=fopen("output_4-6.csv","w");
+  fp=fopen("./output_4-6.csv","w");
 
   dt=0.0001;
   a=2.0;
