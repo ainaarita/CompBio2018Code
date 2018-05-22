@@ -9,7 +9,7 @@ int main(void){
   x1=1.0;
   x2=0.0;
   dt=0.01;
-  b=0.5;
+  b=0.2;
   c=0.5;
 
   FILE *fp;
